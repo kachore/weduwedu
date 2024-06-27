@@ -1,0 +1,32 @@
+.reservez{
+    background-color: rgb(2, 145, 2);
+}
+.logo{
+    height: 90px;;
+    width: auto;
+}
+.main_header_area{
+margin: 0px;
+padding: 0px;
+}
+.header_menu{
+    margin: 0px;
+    padding: 0px;
+}
+affix-top{
+    margin: 0px;
+    padding: 0px;       
+}
+.orange-color{
+    color: orange;
+}
+.desc{
+    height: 300px;
+    width: 250px;
+}
+.foot{
+background-image: none;
+}
+.color{
+    color: white;
+}
