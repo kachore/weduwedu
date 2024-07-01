@@ -13,3 +13,88 @@
 .icong{
     color: orange;
 }
+.site-footer {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.footer-section {
+    margin-bottom: 30px;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:white;
+    
+}
+
+.footer-list,
+.footer-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li,
+.footer-contact li {
+    margin-bottom: 10px;
+}
+
+.footer-list a,
+.footer-contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-list a:hover,
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-social li {
+    margin-left: 10px;
+}
+
+.footer-social a {
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.footer-copyright {
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .footer-social {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
