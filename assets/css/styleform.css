@@ -13,3 +13,22 @@
 .icong{
     color: orange;
 }
+
+.hero-title1{
+    font-size: 30px;
+    color: white;
+    font-weight:800;
+    text-transform:uppercase
+}
+
+.ter{
+    text-align: justify;
+    word-spacing: 0px;
+   
+}
+
+.ilo{
+height: 340px;
+width: 100%;
+}
+
