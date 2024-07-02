@@ -116,6 +116,13 @@
 height: 340px;
 width: 100%;
 }
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 2px;
+}
+
 
 .gty{
    margin-top: 40px;
