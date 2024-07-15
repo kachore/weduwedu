@@ -134,3 +134,65 @@ width: 100%;
 .cv{
     padding-top: 70px;
 }
+
+
+
+
+ 
+  
+  
+
+  @media (max-width: 767px) {
+    #topo{
+font-size: 30px;
+    }
+
+ 
+  
+  }
+
+  
+  @media (max-width: 767px) {
+    #topa{
+font-size: 36px;
+    }
+
+ 
+  
+  }
+    
+  @media (max-width: 767px) {
+    #exp{
+display: none;
+    }
+
+ 
+  
+  }
+
+  @media (max-width: 767px) {
+    .jko{
+margin-bottom: 10px;
+    }
+
+ 
+  
+  }
+
+  @media (max-width: 767px) {
+    .feis{
+color: orange;
+    }
+
+ 
+  
+  }
+
+  @media (max-width: 767px) {
+    .bti{
+font-size: 9px;
+    }
+
+ 
+  
+  }
