@@ -8,7 +8,12 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 
-<title>Formations enfants</title>
+<title>Galerie</title>
+
+
+
+
+
 
 <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon1.png">
 
@@ -22,7 +27,17 @@
 <link rel="stylesheet" href="assets/css/nice-select.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/styleform.css">
-</head>
+
+
+
+<link href="assets/css2/style.css" rel="stylesheet" type="text/css">
+
+
+
+<!-- Inclure CSS pour Lightbox2 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
 <body class="home-2">
 
 <!-- <div class="preloader">
@@ -43,7 +58,7 @@
     <ul>
     <li><a href="/cdn-cgi/l/email-protection#0a63646c654a6f726b677a666f24696567"><i class="far fa-envelopes"></i>
     <span class="__cf_email__" data-cfemail="d1b8bfb7be91b4a9b0bca1bdb4ffb2bebc">weduwedu@gmail.com</span></a></li>
-    <li><a href="tel:+21236547898"><i class="far fa-phone-volume"></i> +222 12 65 78 98</a>
+    <li><a href="tel:+21236547898"><i class="far fa-phone-volume"></i> +229 56 99 98 88</a>
     </li>
     <li><a href="#"><i class="far fa-alarm-clock"></i> lun - sam (08h - 18h)</a></li>
     </ul>
@@ -71,9 +86,7 @@
     <img src="assets/img/logo/Group1.png" alt="logo">
     </a>
     <div class="mobile-menu-right">
-    <div class="search-btn">
-    <button type="button" class="nav-right-link"><i class="far fa-search"></i></button>
-    </div>
+  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-mobile-icon"><i class="far fa-bars"></i></span>
     </button>
@@ -118,6 +131,9 @@
 
 <main class="main">
 
+<div  class="cv">
+   
+        
 <div class="site-breadcrumb" style="background: url(assets/img/bg2.jpg)">
 <div class="container">
 <h2 class="breadcrumb-title">Galerie</h2>
@@ -127,11 +143,130 @@
 </ul>
 </div>
 </div>
-
+</div>
 
 
 
 </main>
+
+
+<section class="content gallery gty " data-ref="container-1">
+    <div class="container ghj">
+        <div class="row km">
+            <div class="col-md-12">
+                <div class="mt_filter">
+                    <ul class="list-inline text-center filter">
+                        <li class="active"><a href="#" data-filter="*">Tous</a></li>
+                        <li><a href="#" data-filter=".photos">Photos</a></li>
+                        <li><a href="#" data-filter=".videos">Vidéos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mar-top-50">
+            <div class="row isotopeContainer">
+                <!-- Exemple d'une image avec Lightbox -->
+                <div class="col-md-4 col-sm-6 isotopeSelector photos">
+                    <a href="assets/img/img1c.png" data-lightbox="gallery">
+                        <img src="assets/img/img1c.png" alt="Image 1">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-6 isotopeSelector photos">
+                    <a href="assets/img/1719833711967.jpg" data-lightbox="gallery">
+                        <img src="assets/img/1719833711967.jpg" alt="Image 2">
+                    </a>
+                </div>
+
+                <div class="col-md-4 col-sm-6 isotopeSelector photos">
+                    <a href="assets/img/1719833823111.jpg" data-lightbox="gallery">
+                        <img src="assets/img/1719833823111.jpg" alt="Image 3">
+                    </a>
+                </div>
+
+
+                
+                <!-- Exemple d'une vidéo -->
+                <div class="col-md-4 col-sm-6 isotopeSelector videos">
+             
+                        <!-- Exemple d'une vidéo avec modal -->
+                        
+                            <div class="gallery-item">
+                                <div class="gallery-image">
+                                    <img src="assets/img/1719833823111.jpg" alt="Image">
+                                </div>
+                                <div class="gallery-content">
+                                    <ul>
+                                        <li>
+                                            <!-- Lien pour ouvrir la modal -->
+                                            <a href="#videoModal" data-toggle="modal" data-target="#videoModal">
+                                                <i class="fa fa-play"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                      
+                <!-- Exemple d'une vidéo -->
+             
+            
+        </div>
+                </div>
+         
+        
+    </div>
+</section>
+
+<!-- Modal pour la vidéo -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <video id="videoPlayer" width="100%" controls>
+                    <source src="assets/img/2 minutes pour découvrir le Bénin.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéo.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Inclure jQuery et les scripts de Bootstrap (si non déjà inclus) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+
+<!-- Inclure jQuery et les scripts de Bootstrap (si non déjà inclus) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- Inclure jQuery et Lightbox2 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    
+    
+    
+    
+    
+    
+    
+    
 
 <footer class="site-footer">
     <div class="container">
@@ -191,6 +326,36 @@
 
 <a href="#" id="scroll-top"><i class="far fa-arrow-up"></i></a>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script>
+
+$(document).ready(function() {
+        $('#videoModal').on('hide.bs.modal', function () {
+            var video = document.getElementById('videoPlayer');
+            video.pause();
+            video.currentTime = 0;
+        });
+    });
+    $(document).ready(function() {
+        // Initialise Isotope avec votre conteneur spécifique
+        var $container = $('.isotopeContainer').isotope({
+            itemSelector: '.isotopeSelector',
+            layoutMode: 'fitRows'
+        });
+
+        // Filtrer les éléments lorsque vous cliquez sur un lien de filtre
+        $('.filter').on('click', 'a', function(e) {
+            e.preventDefault();
+            var filterValue = $(this).attr('data-filter');
+            $container.isotope({ filter: filterValue });
+        });
+    });
+
+
+    
+</script>
+
 
 <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.0.min.js"></script>
 <script src="assets/js/modernizr.min.js"></script>
@@ -208,5 +373,8 @@
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/contact-form.js"></script>
 <script src="assets/js/main.js"></script>
+
+
+
 </body>
 </html>

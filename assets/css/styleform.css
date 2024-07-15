@@ -122,7 +122,17 @@ width: 100%;
     align-items: center;  
     margin: 2px;
 }
+.gty{
+   margin-top: 40px;
+}
 
+.km{
+    margin-bottom: 20px;
+}
+.cv{
+    padding-top: 70px;
+}
 .col{
-    background-color: #004A87;
+    color: orange;
+    font-weight: bold;
 }
