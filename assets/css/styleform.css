@@ -187,14 +187,62 @@ color: orange;
   }
 
   @media (max-width: 767px) {
+    .ju{
+        margin-top: 20px;
+    }
     .bti{
 font-size: 9px;
     }
 
- 
+ .choose-count{
+    display: none;
+ }
   
+ .about-text{
+
+    margin-right: 10px;
+}
+
+.about-textp{
+margin-left: -20px;
+}
   }
 .col{
     color: orange;
     font-weight: bold;
+}
+
+.about-text{
+    text-align: justify;
+}
+
+.atelierimg{
+    height: 230px;
+}
+
+.forma{
+    border-radius: 15px;
+}
+
+
+@media (min-width: 767px) {
+    .forma{
+
+        height: 200px;
+        width: 200px;
+    }
+
+
+}
+
+.gh{
+    margin-top: 50px;
+}
+
+.go{
+    margin-top: 20px;
+}
+
+.per{
+    margin-top: 20px;
 }
