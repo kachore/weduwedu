@@ -352,3 +352,28 @@ text-align: justify;
 .lin{
     margin-top: 15px;
 }
+
+
+@media (max-width: 991.98px) {
+    .choose-item-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .choose-item-info li.df {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .choose-item-info {
+        text-align: center;
+    }
+    .choose-item-info .df {
+        justify-content: center;
+    }
+}
