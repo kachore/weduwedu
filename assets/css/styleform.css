@@ -378,6 +378,32 @@ text-align: justify;
     }
 }
 
+@media (max-width: 991.98px) {
+    .gfd {
+        text-align: justify;
+    }
+   
+}
+
 .ret{
     margin-top: 50px;
+}
+
+
+
+.gfd {
+    text-align: justify;
+}
+
+.vro{
+    color: #FBA707;
+    
+}
+
+.opp{
+    margin-top: -20px;
+}
+
+.jko{
+    margin-bottom: 10px;
 }
