@@ -444,3 +444,7 @@ text-align: justify;
 .text-overlay h1 {
 text-transform: uppercase;
 }
+
+.jko:hover img {
+    transform: scale(1.1);
+}
