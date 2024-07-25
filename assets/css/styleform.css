@@ -407,3 +407,40 @@ text-align: justify;
 .jko{
     margin-bottom: 10px;
 }
+
+
+.jko {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 10px;
+}
+.text-overlay h1{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.text-overlay h1, .text-overlay p {
+    margin: 0;
+}
+
+.jko img {
+    width: 100%;
+    height: auto;
+}
+
+.tg{
+    margin-bottom: 20px;
+}
+
+.text-overlay h1 {
+text-transform: uppercase;
+}
